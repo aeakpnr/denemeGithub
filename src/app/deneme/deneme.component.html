@@ -1,0 +1,21 @@
+<div>
+    <button>Anasayfa</button>
+    <button>Tamamlananlar</button>
+    <button>Not Oluştur</button>
+</div>
+<div>
+  <input type="text" [(ngModel)]="name" #ngmodel required>
+  <button (click)="setValue(name)">button</button>
+  <li *ngFor="let list of denemeArray">{{list.text}}
+    <button>düzenle</button>
+    <button >tamamla</button>
+    <button>sil</button>
+  </li>
+</div>
+<div *ngIf="false">
+<li>
+    <button>düzenle</button>
+    <button >tamamla</button>
+    <button>sil</button>
+  </li>
+</div>
