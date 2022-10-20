@@ -4,9 +4,9 @@
     <button>Not Oluştur</button>
 </div>
 <div>
-  <input type="text" [(ngModel)]="name" #ngmodel required>
+  <input type="search" placeholder="Arama" [(ngModel)]="name" #ngmodel required>
   <button (click)="setValue(name)">button</button>
-  <li *ngFor="let list of denemeArray">{{list.text}}
+  <li *ngFor="let list of denemeArray">{{list.baslik}}
     <button>düzenle</button>
     <button >tamamla</button>
     <button>sil</button>

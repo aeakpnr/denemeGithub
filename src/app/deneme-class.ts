@@ -1,6 +1,6 @@
 export class DenemeClass {
-  text!:string;
-  comp:boolean=false;
-
+  baslik!:string;
+  icerik!:string;
+  kategori!:string;
 
 }

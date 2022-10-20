@@ -1,0 +1,40 @@
+<form [formGroup]="nodeForm" (ngSubmit)="deneme()">
+<div class="container form-floating w-50 p-3">
+  <div class="form-group">
+  <span>
+    <label for="NodeHeader">Not Başlığı:</label>
+  </span>
+  <input type="text" class="form-control mt-3" for="NodeHeader" id="Baslik" formControlName="baslik">
+</div>
+<div class="form-group">
+  <span>
+    <label class="mt-3" for="floatingTextarea">Not Açıklaması:</label>
+  </span>
+  <textarea class="form-control mt-3" placeholder="Leave a comment here" id="floatingTextarea" formControlName="icerik"></textarea>
+</div>
+<div class="form-group">
+ <span>
+    <label class="mt-3" for="floatingSelectGrid">Kategoriler:</label>
+  </span>
+  <select class="form-select mt-3" formControlName="kategori" id="kategori">
+    <option selected>Kategorilerden Birini Seçiniz</option>
+    <option value="1">Ev</option>
+    <option value="2">Okul</option>
+    <option value="3">İş</option>
+    <option value="4">Arkadaşlar</option>
+    <option value="5">Diğer</option>
+  </select>
+</div>
+<div class="form-group">
+  <span>
+    <label class="mt-3" for="date">Yapılması Gereken Tarih:</label>
+  </span>
+  <input class="form-date" formControlName="tarih" type="date" id="date">
+</div>
+<div>
+  <button class="btn btn-outline-success mt-3" type="submit">Gönder</button>
+  <button class="btn btn-outline-primary mt-3">Temizle</button>
+</div>
+</div>
+
+</form>
