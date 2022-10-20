@@ -24,6 +24,8 @@ export class DenemeComponent implements OnInit {
     ngOnInit(): void {
         console.log("Hello World!asdasd");
         console.log("Hello World!!!asdasda");
+        console.log("Hellogsfdgsdfg World!");
+        console.log("Hellosfgsdfsg World!!!");
 
     }
 }
