@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { DenemeComponent } from './deneme/deneme.component';
 import { FormSayfasiComponent } from './form-sayfasi/form-sayfasi.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,

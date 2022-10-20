@@ -13,7 +13,7 @@ export class DenemeComponent implements OnInit {
 input: any;
 setValue(names:string){
 
-  this.denemeArray.push({baslik: names,icerik: "dsfgsfdgsdfg",kategori:"diğer"})
+  this.denemeArray.push({baslik: names,icerik: "dsfgsfdgsdfg",kategori:"diğer",tarih:"29.06.1996"})
   console.log(this.denemeArray)
   this.name='';
 }

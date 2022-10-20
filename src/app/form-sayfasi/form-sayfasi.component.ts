@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
+import { DenemeClass } from '../deneme-class';
 
 @Component({
   selector: 'app-form-sayfasi',
@@ -8,7 +9,7 @@ import { FormControl, FormGroup } from '@angular/forms';
 })
 export class FormSayfasiComponent implements OnInit {
 
-  constructor() { }
+  constructor() {  }
 
   ngOnInit(): void {
   }
@@ -18,7 +19,8 @@ nodeForm=new FormGroup({
   kategori:new FormControl(''),
   tarih:new FormControl('')
 });
+
 deneme(){
-  console.log(this.nodeForm.value)
+
 }
 }
