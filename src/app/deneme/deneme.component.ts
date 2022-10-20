@@ -21,6 +21,7 @@ setValue(names:string){
   constructor() { }
 
   ngOnInit(): void {
+    console.log("Hello World!")
   }
 
 }
